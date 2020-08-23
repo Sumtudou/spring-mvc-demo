@@ -12,7 +12,7 @@ public class HelloController implements Controller {
                                       HttpServletResponse httpServletResponse)throws Exception {
         ModelAndView mav = new ModelAndView("index.jsp");
         mav.addObject("message", "Hello Spring MVC");//有点像thymeleaf……
-        mav.addObject("title", "Spring MVC demo");//有点像thymeleaf……
+        mav.addObject("title", "Spring MVC demo");
         return mav;
     }
 
